@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"leetcode.com/algorithms/util"
+	"LeetCodeBook/util"
 )
 
 func menu() []string {

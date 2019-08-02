@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"leetcode.com/algorithms/solution"
-	"leetcode.com/algorithms/util"
+	"LeetCodeBook/solution"
+	"LeetCodeBook/util"
 )
 
 func main() {
