@@ -1,0 +1,26 @@
+{
+  "name": "leetcodebook",
+  "version": "1.0.0",
+  "description": "leetcode",
+  "main": "main.go",
+  "scripts": {
+    "build": "go build -o build/leetcodebook.exe main.go menu.go",
+    "start": "build/leetcodebook.exe",
+    "clean": "rimraf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donny2333/LeetCodeBook.git"
+  },
+  "author": "Donny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Donny2333/LeetCodeBook/issues"
+  },
+  "homepage": "https://github.com/Donny2333/LeetCodeBook#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  }
+}

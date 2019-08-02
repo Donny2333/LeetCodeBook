@@ -22,6 +22,11 @@ func init() {
 		cmd.Stdout = os.Stdout
 		cmd.Run()
 	}
+	clear["darwin"] = func() {
+		cmd := exec.Command("clear") //Mac example, its tested
+		cmd.Stdout = os.Stdout
+		cmd.Run()
+	}
 }
 
 func CallClear() {
