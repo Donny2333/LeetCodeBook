@@ -1,10 +1,11 @@
 package main
 
 import (
+	"LeetCodeBook/util"
 	"fmt"
 
-	"LeetCodeBook/solution"
-	"LeetCodeBook/util"
+	. "LeetCodeBook/solution/1.TwoSum"
+	. "LeetCodeBook/solution/2.AddTwoNumbers"
 )
 
 func main() {
@@ -25,11 +26,11 @@ func main() {
 
 		switch menu[0] {
 		case "1":
-			fmt.Println(solution.TwoSum())
+			fmt.Println(TwoSum())
 			break
 
 		case "2":
-			fmt.Println(solution.AddTwoNumbers())
+			fmt.Println(AddTwoNumbers())
 			break
 
 		default:
