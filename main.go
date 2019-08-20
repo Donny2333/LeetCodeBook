@@ -1,11 +1,11 @@
 package main
 
 import (
-	"LeetCodeBook/util"
+	"github.com/Donny2333/LeetCodeBook/util"
 	"fmt"
 
-	. "LeetCodeBook/solution/1.TwoSum"
-	. "LeetCodeBook/solution/2.AddTwoNumbers"
+	. "github.com/Donny2333/LeetCodeBook/solution/1.TwoSum"
+	. "github.com/Donny2333/LeetCodeBook/solution/2.AddTwoNumbers"
 )
 
 func main() {
